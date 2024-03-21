@@ -11,12 +11,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae604eda-8a02-437c-8e7f-27d660f2311e" name="Changes" comment="add business logic (incomplete)">
-      <change afterPath="$PROJECT_DIR$/WebApplication/Views/Shared/_LoginLayout.cshtml" afterDir="false" />
+    <list default="true" id="ae604eda-8a02-437c-8e7f-27d660f2311e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Solution24.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication.BusinessLogic/DBModel/UserContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication.BusinessLogic/Web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication.BusinessLogic/bin/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication.BusinessLogic/bin/EntityFramework.SqlServer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication.BusinessLogic/bin/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication.BusinessLogic/bin/EntityFramework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication.BusinessLogic/packages.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication.Domain/Entities/User/UDbTable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication.Domain/Enums/URole.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/bin/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/bin/EntityFramework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/EntityFramework.6.4.4.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/build/EntityFramework.DefaultItems.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/build/EntityFramework.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/build/EntityFramework.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/build/Microsoft.Data.Entity.Build.Tasks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/build/netcoreapp3.0/EntityFramework.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/build/netcoreapp3.0/EntityFramework.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/buildTransitive/EntityFramework.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/buildTransitive/EntityFramework.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/buildTransitive/netcoreapp3.0/EntityFramework.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/buildTransitive/netcoreapp3.0/EntityFramework.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/content/net40/App.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/content/net40/App.config.transform" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/content/net40/Web.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/content/net40/Web.config.transform" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net40/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net40/EntityFramework.SqlServer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net40/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net40/EntityFramework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.SqlServer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.SqlServer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/EntityFramework6.PS2.psd1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/EntityFramework6.PS2.psm1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/EntityFramework6.psd1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/EntityFramework6.psm1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/about_EntityFramework6.help.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/init.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/install.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net40/any/ef6.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net40/any/ef6.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net40/win-x86/ef6.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net40/win-x86/ef6.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net45/any/ef6.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net45/any/ef6.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net45/win-x86/ef6.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net45/win-x86/ef6.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/netcoreapp3.0/any/ef6.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/netcoreapp3.0/any/ef6.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/netcoreapp3.0/any/ef6.runtimeconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution24/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution24/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Views/Login/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Views/Login/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication.BusinessLogic/Core/UserApi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication.BusinessLogic/Core/UserApi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication.BusinessLogic/WebApplication.BusinessLogic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication.BusinessLogic/WebApplication.BusinessLogic.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication.Domain/WebApplication.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication.Domain/WebApplication.Domain.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/bin/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/WebApplication.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +110,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.WebApplication.executor": "Debug",
+    ".NET Project.WebApplication.executor": "Run",
     ".NET Project.WebApplication1.executor": "Run",
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "deletionFromPopupRequiresConfirmation": "false",
@@ -61,7 +123,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -164,6 +226,28 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -180,7 +264,11 @@
       <workItem from="1707654763385" duration="690000" />
       <workItem from="1707655490447" duration="9820000" />
       <workItem from="1709814074084" duration="2171000" />
-      <workItem from="1710062021173" duration="3275000" />
+      <workItem from="1710062021173" duration="3569000" />
+      <workItem from="1710397189471" duration="55000" />
+      <workItem from="1710953461134" duration="382000" />
+      <workItem from="1710954517317" duration="4206000" />
+      <workItem from="1711013984758" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="Add admin ui">
       <option name="closed" value="true" />
@@ -198,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710062213301</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add login layout">
+      <option name="closed" value="true" />
+      <created>1710065460074</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710065460074</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +317,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add admin ui" />
     <MESSAGE value="add business logic (incomplete)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add business logic (incomplete)" />
+    <MESSAGE value="add login layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="add login layout" />
   </component>
 </project>

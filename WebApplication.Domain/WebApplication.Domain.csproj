@@ -113,8 +113,10 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Entities\User\UDbTable.cs" />
         <Compile Include="Entities\User\ULoginData.cs" />
         <Compile Include="Entities\User\ULoginResp.cs" />
+        <Compile Include="Enums\URole.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>
@@ -122,9 +124,6 @@
         <Project>{48d234d5-77f0-4170-a28d-104fd6498904}</Project>
         <Name>WebApplication.Helpers</Name>
       </ProjectReference>
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Enums\" />
     </ItemGroup>
     <PropertyGroup>
         <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
